@@ -51,7 +51,7 @@ const PhotoMesh = React.forwardRef<
             e.stopPropagation();
             setHovered(true);
         }}
-        onPointerOut={(e) => {
+        onPointerOut={() => {
             setHovered(false);
         }}
     >
